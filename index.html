@@ -1,12 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wingo Motors</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>welcome</h1>
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CDN File -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-expand-lg d-flex justify-content-around">
+    <div class="container-fluid px-lg-5">
+      <img class="navbar-brand img-fluid ms-lg-4" width="220px" href="#" src="./assets/logo.png"></img>
+      <button class="navbar-toggler text-black bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-black"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white active ms-lg-2" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white ms-lg-2" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white ms-lg-2" href="#">Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white ms-lg-2" href="#">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white ms-lg-2 me-lg- me-xl-0" href="#">Contacts</a>
+          </li>
+        </ul>
+        <form class="flex-grow-1" role="search">
+          <input class="form-control rounded-pill" type="search" placeholder="Search.." aria-label="Search">
+        </form>
+        <div class="mt-3 mt-lg-0 ms-lg-2">
+          <button class="btn btn-outline-light fw-medium px-lg-4" type="submit">Log in</button>
+          <button type="button" class="btnGolden btn ms-3 me-lg-3 px-lg-4 text-white fw-medium">Sign up</button>
+        </div>
+      </div>
+    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-overlay container-fluid">
+    <div class="pt-md-5 text-center">
+      <div class="mt-md-5  pt-5">
+        <h1 class="mt-5 pt-5">Unlock Great Prices for Your Perfect Ride!</h1>
+      <p class="mt-lg-3 fs-5 mt-sm-2 mt-md-2">We offer a trusted platform to make car shopping secure, easy, and exciting.</p>
+      <button type="button" class="btn btnGolden ms-3 me-lg-3 px-lg-4 text-white fw-medium">Sign up</button>
+      </div>
+    </div>
+    </section>
+
+    <!-- About -->
+     <div class="about">
+        <div class="title d-flex d-none d-md-block">
+            <h2 class="text-white fw-bold ps-lg-4 text-center pt-4">About Us</h2>
+        </div>
+        <div class="title small d-flex d-md-none d-sm-block">
+          <h2 class="text-white ps-lg-4 fw-bold text-center pt-4">About Us</h2>
+      </div>
+
+      <div class="container-fluid d-flex justify-content-center align-items-center">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-6"><img class="img-fluid mt-sm-2 pt-sm-5 p-lg-5 w-100 ps-lg-5 p-md-5" src="./assets/about-car.jfif" alt=""></div>
+          <div class="col-12 col-md-12 col-lg-6"><p class="text-white p-sm-2 mt-sm-2 p-md-5 mt-lg-5 fs-5">We are more than just a car dealership; we are dedicated to redefining the car buying and branding experience. Our goal is to empower customers with top-quality vehicles, personalized branding services, and seamless digital solutions. Whether you’re looking to own your dream car or boost your fleet’s identity, Wingo Motors is your trusted partner every step of the way.</p></div>
+        </div>
+      </div>
+     </div>
+
+     <!-- Feature Cars -->
+     <div class="bg-white feature mb-lg-5">
+      <div class="title d-flex d-none d-md-block">
+          <h2 class="text-black fw-bold feature ps-lg-4 text-center pt-4">Our Featured Cars</h2>
+      </div>
+      <div class="title small d-flex d-md-none d-sm-block">
+        <h2 class="text-black fw-bold ps-lg-4 small2 feature text-center pt-4">Our Featured Cars</h2>
+    </div>
+
+    <div class="container-fluid d-flex mt-5 ps-md-5win justify-content-center align-items-center">
+      <div class="row">
+        <div class="card mb-3 ms-lg-5 ms-md-5 ps-sm-3 col-12 col-lg-4 col-md-6" style="width:22rem;">
+          <img src="./assets/car1.jfif" class="card-img-top pt-4" alt="Car">
+          <div class="card-body ps-1">
+            <h6 class="card-title fw-bold pt-1">Mercedes-Benz AMG GT</h6>
+            <div class="d-flex pt-1">
+              <div>
+                <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Gasoline</span>
+              </div>
+              <div class="ms-3">
+                <img src="./assets/car.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Sports</span>
+              </div>
+            </div>
+            <p class="card-text pt-3">Price</p>
+            <div class="d-flex justify-content-between pb-3">
+              <span class="fw-bold fs-5 pt-1">$100,100</span>
+              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+          <img src="./assets/car2.jfif" class="card-img-top pt-4" alt="Car">
+          <div class="card-body ps-1">
+            <h6 class="card-title fw-bold pt-1">Ferrari Enzo</h6>
+            <div class="d-flex pt-1">
+              <div>
+                <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Electric</span>
+              </div>
+              <div class="ms-3">
+                <img src="./assets/car.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Sedan</span>
+              </div>
+            </div>
+            <p class="card-text pt-3">Price</p>
+            <div class="d-flex justify-content-between pb-3">
+              <span class="fw-bold fs-5 pt-1">$5,040</span>
+              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+          <img src="./assets/car3.jfif" class="card-img-top pt-4 size" alt="Car">
+          <div class="card-body ps-1">
+            <h6 class="card-title fw-bold pt-1">Fiat Cope</h6>
+            <div class="d-flex pt-1">
+              <div>
+                <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Gasoline</span>
+              </div>
+              <div class="ms-3">
+                <img src="./assets/car.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Mini coupe</span>
+              </div>
+            </div>
+            <p class="card-text pt-3">Price</p>
+            <div class="d-flex justify-content-between pb-3">
+              <span class="fw-bold fs-5 pt-1">$1,067</span>
+              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+          <img src="./assets/car4.jfif" class="card-img-top pt-4" alt="Car">
+          <div class="card-body ps-lg-1">
+            <h6 class="card-title fw-bold pt-1">Dodge RAM</h6>
+            <div class="d-flex pt-1">
+              <div>
+                <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Gasoline</span>
+              </div>
+              <div class="ms-3">
+                <img src="./assets/car.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Truck</span>
+              </div>
+            </div>
+            <p class="card-text pt-3">Price</p>
+            <div class="d-flex justify-content-between pb-3">
+              <span class="fw-bold fs-5 pt-1">$3,766</span>
+              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+          <img src="./assets/car5.jpg" class="card-img-top pt-4" alt="Car">
+          <div class="card-body ps-lg-1">
+            <h6 class="card-title fw-bold pt-1">Hyundai Kona</h6>
+            <div class="d-flex pt-1">
+              <div>
+                <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Gasoline</span>
+              </div>
+              <div class="ms-3">
+                <img src="./assets/car.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">SUV</span>
+              </div>
+            </div>
+            <p class="card-text pt-3">Price</p>
+            <div class="d-flex justify-content-between pb-3">
+              <span class="fw-bold fs-5 pt-1">$7,067</span>
+              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+          <img src="./assets/car6.jfif" class="card-img-top pt-4" alt="Car">
+          <div class="card-body ps-lg-1">
+            <h6 class="card-title fw-bold pt-1">Ferrari Enzo</h6>
+            <div class="d-flex pt-1">
+              <div>
+                <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Electric</span>
+              </div>
+              <div class="ms-3">
+                <img src="./assets/car.png" alt="Gasoline Picture">
+                <span class="fw-bold text-black">Sedan</span>
+              </div>
+            </div>
+            <p class="card-text pt-3">Price</p>
+            <div class="d-flex justify-content-between pb-3">
+              <span class="fw-bold fs-5 pt-1">$5,040</span>
+              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+    <!-- Services -->
+    <div class="services mt-5">
+      <div class="title d-flex d-none d-md-block">
+          <h2 class="text-white fw-bold premium ps-lg-4 text-center pt-4">Our Premium Services</h2>
+      </div>
+      <div class="title small d-flex d-md-none d-sm-block">
+        <h2 class="text-white ps-lg-4 ps-md-1 fw-bold premium mb-3 small3 text-center pt-4">Our Premium Services</h2>
+    </div>
+    <p class="text-white text-center">Wingo is a reputable company that offers a wide <br> range of useful services for every taste.</p>
+
+    <div class="d-flex text-center ms-lg-5 ps-lg-5">
+      <div class="ms-lg-5 ps-lg-4 mt-lg-5 d-flex">
+        <div class="d-flex text-center">
+          <div class="bg-white box1 pt-5 m-lg-5 m-md-5">
+            <img src="./assets/logo1.png" class="img-fluid text-center pt-2" alt="Logo Image">
+            <h5 class="text-center pt-3">24 Hours Support</h5>
+            <p class="text-center pt-3"> We support you <br>
+              all hours of the day, </p>
+          </div>
+        </div>
+        <div class="bg-white box1 pt-5 ms-lg-5 m-5 d-none d-md-block">
+          <img src="./assets/logo2.png" class="img-fluid text-center pt-2" alt="Logo Image">
+          <h5 class="text-center pt-3">Qualified Assurance</h5>
+          <p class="text-center pt-3">All cars have a <br>
+            valid insurance.  </p>
+        </div>
+        <div class="bg-white box1 pt-5 ms-lg-5 m-5 d-none d-md-block">
+          <img src="./assets/logo3.png" class="img-fluid text-center pt-2" alt="Logo Image">
+          <h5 class="text-center pt-3">Eco-Friendly</h5>
+          <p class="text-center pt-3">Offering electric and hybrid 
+            vehicles for environmentally-
+            conscious drivers.</p>
+        </div>
+      </div>
+    </div>
+   </div>
+
+    <!-- Bootstrap Script File -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JavaScript File -->
+     <script src="script.js"></script>
+  </body>
 </html>

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btnGolden{
+    background: #FE8400 !important;
+}
+.bg-overlay {
+    background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url(./assets/hero-img.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 610px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.2s ease;
+    background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75));
+}
+
+/* About CSS */
+.title h2{
+    border-bottom: 2px solid #FE8400;
+    width:200px;
+    margin-left: 42%;
+}
+
+.title .feature{
+    border-bottom: 2px solid #FE8400;
+    width:350px;
+    margin-left: 35%;
+    padding-top: 10px;
+}
+
+.small{
+    margin-left: -28% !important;
+}
+
+.small2{
+    margin-left: 23% !important;
+}
+
+.about{
+    background-color: #141414;
+    height: 95vh;
+}
+
+/* Feature CSS*/
+.car{
+    width: 5%;
+    border: 5px solid;
+}
+.size{
+    height: 240px;
+}
+
+/* Services */
+.services{
+    position: relative;
+    background-color: #141414;
+    height: 60vh;
+}
+
+.title .premium{
+    border-bottom: 2px solid #FE8400;
+    width:400px;
+    margin-left: 35%;
+    padding-top: 10px;
+}
+
+.small3{
+    margin-left: 23% !important;
+}
+
+.box1{
+    width: 250px;
+    height: 290px;
+    border-radius: 5px;
+    box-shadow: 1px 23px 17px -7px rgba(0,0,0,0.62);
+}

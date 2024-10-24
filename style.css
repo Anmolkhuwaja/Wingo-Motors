@@ -30,27 +30,6 @@
 }
 
 /* About CSS */
-.title h2{
-    border-bottom: 2px solid #FE8400;
-    width:200px;
-    margin-left: 42%;
-}
-
-.title .feature{
-    border-bottom: 2px solid #FE8400;
-    width:350px;
-    margin-left: 35%;
-    padding-top: 10px;
-}
-
-.small{
-    margin-left: -28% !important;
-}
-
-.small2{
-    margin-left: 23% !important;
-}
-
 .about{
     background-color: #141414;
     height: 95vh;
@@ -73,14 +52,11 @@
 }
 
 .title .premium{
-    border-bottom: 2px solid #FE8400;
     width:400px;
-    margin-left: 35%;
-    padding-top: 10px;
 }
 
 .small3{
-    margin-left: 23% !important;
+    margin-left: 1% !important;
 }
 
 .box1{
@@ -89,3 +65,38 @@
     border-radius: 5px;
     box-shadow: 1px 23px 17px -7px rgba(0,0,0,0.62);
 }
+
+.change:hover{
+    color: #FE8400 !important;
+}
+
+
+/* Responsive Code */
+@media (max-width: 767.98px) {
+    .card {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .bg-overlay {
+        height: 500px;
+        width: 100%;
+    }
+  }
+  
+
+  /* animation */
+  .underline1 {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;}
+  .underline1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 1px;
+    background-color: #FE8400;
+    transition: width 0.3s ease;}
+    .underline1:hover::after {
+    width: 100%;}

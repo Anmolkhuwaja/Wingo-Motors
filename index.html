@@ -24,20 +24,20 @@
       </button>
       <div class="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-white active ms-lg-2" aria-current="page" href="./index.html">Home</a>
+          <li class="nav-item underline1">
+            <a class="nav-link text-white change active ms-lg-2" aria-current="page" href="./index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white ms-lg-2" href="./about.html">About</a>
+          <li class="nav-item underline1">
+            <a class="nav-link text-white ms-lg-2 change" href="./about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white ms-lg-2" href="./booking.html">Booking</a>
+          <li class="nav-item underline1">
+            <a class="nav-link text-white ms-lg-2 change" href="./booking.html">Booking</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white ms-lg-2" href="./cars.html">Cars</a>
+          <li class="nav-item underline1">
+            <a class="nav-link text-white ms-lg-2 change" href="./cars.html">Cars</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white ms-lg-2 me-lg- me-xl-0" href="./contact.html">Contacts</a>
+          <li class="nav-item underline1">
+            <a class="nav-link text-white change ms-lg-2 me-lg- me-xl-0" href="./contact.html">Contacts</a>
           </li>
         </ul>
         <form class="flex-grow-1" role="search">
@@ -65,10 +65,13 @@
     <!-- About -->
      <div class="about">
         <div class="title d-flex d-none d-md-block">
-            <h2 class="text-white fw-bold ps-lg-4 text-center pt-4">About Us</h2>
+            <h2 class="text-white fw-bold ps-lg-4 text-center pt-4">
+              <span class="border-bottom border-warning">About Us</span></h2>
         </div>
-        <div class="title small d-flex d-md-none d-sm-block">
-          <h2 class="text-white ps-lg-4 fw-bold text-center pt-4">About Us</h2>
+        <div class="title d-flex d-md-none text-center ms-sm-5 ms-lg-0 d-sm-block">
+          <h3 class="text-white fw-bold small3 premium text-center pt-4">
+            <span class="border-bottom border-warning text-center">About Us</span>
+          </h3>
       </div>
 
       <div class="container-fluid d-flex justify-content-center align-items-center">
@@ -82,142 +85,149 @@
      <!-- Feature Cars -->
      <div class="bg-white feature mb-lg-5">
       <div class="title d-flex d-none d-md-block">
-          <h2 class="text-black fw-bold feature ps-lg-4 text-center pt-4">Our Featured Cars</h2>
+          <h2 class="text-black fw-bold ps-lg-4 text-center pt-4">
+            <span class="border-bottom border-warning">Our Featured Cars</span>
+          </h2>
       </div>
       <div class="title small d-flex d-md-none d-sm-block">
-        <h2 class="text-black fw-bold ps-lg-4 small2 feature text-center pt-4">Our Featured Cars</h2>
+        <h3 class="text-black fw-bold ps-lg-4 small3 premium text-center pt-4">
+          <span class="border-bottom border-warning text-center">Our Featured Cars</span>
+        </h3>
     </div>
 
-    <div class="container-fluid d-flex mt-5 ps-md-5 ps-lg-5 justify-content-center align-items-center">
-      <div class="row">
-        <div class="card mb-3 ms-lg-5 ms-md-5 ps-sm-3 col-12 col-lg-4 col-md-6" style="width:22rem;">
-          <img src="./assets/car1.jfif" class="card-img-top pt-4" alt="Car">
-          <div class="card-body ps-1">
-            <h6 class="card-title fw-bold pt-1">Mercedes-Benz AMG GT</h6>
-            <div class="d-flex pt-1">
-              <div>
-                <img src="./assets/gas-station.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Gasoline</span>
+    <div class="text-center ms-lg-0 ms-md-5 ps-sm-3 ps-lg-0">
+      <div class="container-fluid d-flex mt-5 ps-md-5 justify-content-center align-items-center">
+        <div class="row">
+          
+          <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+            <img src="./assets/car1.jfif" class="card-img-top pt-4" alt="Car">
+            <div class="card-body">
+              <h6 class="card-title fw-bold text-start pt-1">Mercedes-Benz AMG GT</h6>
+              <div class="d-flex pt-1">
+                <div>
+                  <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">Gasoline</span>
+                </div>
+                <div class="ms-3">
+                  <img src="./assets/car.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">Sports</span>
+                </div>
               </div>
-              <div class="ms-3">
-                <img src="./assets/car.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Sports</span>
+              <p class="card-text pt-3 text-start">Price</p>
+              <div class="d-flex justify-content-between pb-3">
+                <span class="fw-bold fs-5 pt-1">$100,100</span>
+                <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
               </div>
-            </div>
-            <p class="card-text pt-3">Price</p>
-            <div class="d-flex justify-content-between pb-3">
-              <span class="fw-bold fs-5 pt-1">$100,100</span>
-              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
             </div>
           </div>
-        </div>
-
-        <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
-          <img src="./assets/car2.jfif" class="card-img-top pt-4" alt="Car">
-          <div class="card-body ps-1">
-            <h6 class="card-title fw-bold pt-1">Ferrari Enzo</h6>
-            <div class="d-flex pt-1">
-              <div>
-                <img src="./assets/gas-station.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Electric</span>
+  
+          <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+            <img src="./assets/car2.jfif" class="card-img-top pt-4" alt="Car">
+            <div class="card-body">
+              <h6 class="card-title fw-bold text-start pt-1">Ferrari Enzo</h6>
+              <div class="d-flex pt-1">
+                <div>
+                  <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black text-center">Electric</span>
+                </div>
+                <div class="ms-3">
+                  <img src="./assets/car.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">Sedan</span>
+                </div>
               </div>
-              <div class="ms-3">
-                <img src="./assets/car.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Sedan</span>
+              <p class="card-text text-start pt-3">Price</p>
+              <div class="d-flex justify-content-between pb-3">
+                <span class="fw-bold fs-5 pt-1">$5,040</span>
+                <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
               </div>
-            </div>
-            <p class="card-text pt-3">Price</p>
-            <div class="d-flex justify-content-between pb-3">
-              <span class="fw-bold fs-5 pt-1">$5,040</span>
-              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
             </div>
           </div>
-        </div>
-
-        <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
-          <img src="./assets/car3.jfif" class="card-img-top pt-4 size" alt="Car">
-          <div class="card-body ps-1">
-            <h6 class="card-title fw-bold pt-1">Fiat Cope</h6>
-            <div class="d-flex pt-1">
-              <div>
-                <img src="./assets/gas-station.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Gasoline</span>
+  
+          <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+            <img src="./assets/car3.jfif" class="card-img-top pt-4 size" alt="Car">
+            <div class="card-body ps-1">
+              <h6 class="card-title fw-bold text-start pt-1">Fiat Cope</h6>
+              <div class="d-flex pt-1">
+                <div>
+                  <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">Gasoline</span>
+                </div>
+                <div class="ms-3">
+                  <img src="./assets/car.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">Mini coupe</span>
+                </div>
               </div>
-              <div class="ms-3">
-                <img src="./assets/car.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Mini coupe</span>
+              <p class="card-text text-start pt-3">Price</p>
+              <div class="d-flex justify-content-between pb-3">
+                <span class="fw-bold fs-5 pt-1">$1,067</span>
+                <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
               </div>
-            </div>
-            <p class="card-text pt-3">Price</p>
-            <div class="d-flex justify-content-between pb-3">
-              <span class="fw-bold fs-5 pt-1">$1,067</span>
-              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
             </div>
           </div>
-        </div>
-
-        <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
-          <img src="./assets/car4.jfif" class="card-img-top pt-4" alt="Car">
-          <div class="card-body ps-lg-1">
-            <h6 class="card-title fw-bold pt-1">Dodge RAM</h6>
-            <div class="d-flex pt-1">
-              <div>
-                <img src="./assets/gas-station.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Gasoline</span>
+  
+          <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+            <img src="./assets/car4.jfif" class="card-img-top pt-4" alt="Car">
+            <div class="card-body ps-lg-1">
+              <h6 class="card-title fw-bold text-start pt-1">Dodge RAM</h6>
+              <div class="d-flex pt-1">
+                <div>
+                  <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">Gasoline</span>
+                </div>
+                <div class="ms-3">
+                  <img src="./assets/car.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">Truck</span>
+                </div>
               </div>
-              <div class="ms-3">
-                <img src="./assets/car.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Truck</span>
+              <p class="card-text pt-3 text-start">Price</p>
+              <div class="d-flex justify-content-between pb-3">
+                <span class="fw-bold fs-5 pt-1">$3,766</span>
+                <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
               </div>
-            </div>
-            <p class="card-text pt-3">Price</p>
-            <div class="d-flex justify-content-between pb-3">
-              <span class="fw-bold fs-5 pt-1">$3,766</span>
-              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
             </div>
           </div>
-        </div>
-
-        <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
-          <img src="./assets/car5.jpg" class="card-img-top pt-4" alt="Car">
-          <div class="card-body ps-lg-1">
-            <h6 class="card-title fw-bold pt-1">Hyundai Kona</h6>
-            <div class="d-flex pt-1">
-              <div>
-                <img src="./assets/gas-station.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Gasoline</span>
+  
+          <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+            <img src="./assets/car5.jpg" class="card-img-top pt-4" alt="Car">
+            <div class="card-body ps-lg-1">
+              <h6 class="card-title fw-bold text-start pt-1">Hyundai Kona</h6>
+              <div class="d-flex pt-1">
+                <div>
+                  <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">Gasoline</span>
+                </div>
+                <div class="ms-3">
+                  <img src="./assets/car.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">SUV</span>
+                </div>
               </div>
-              <div class="ms-3">
-                <img src="./assets/car.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">SUV</span>
+              <p class="card-text pt-3 text-start">Price</p>
+              <div class="d-flex justify-content-between pb-3">
+                <span class="fw-bold fs-5 pt-1">$7,067</span>
+                <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
               </div>
-            </div>
-            <p class="card-text pt-3">Price</p>
-            <div class="d-flex justify-content-between pb-3">
-              <span class="fw-bold fs-5 pt-1">$7,067</span>
-              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
             </div>
           </div>
-        </div>
-
-        <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
-          <img src="./assets/car6.jfif" class="card-img-top pt-4" alt="Car">
-          <div class="card-body ps-lg-1">
-            <h6 class="card-title fw-bold pt-1">Ferrari Enzo</h6>
-            <div class="d-flex pt-1">
-              <div>
-                <img src="./assets/gas-station.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Electric</span>
+  
+          <div class="card mb-3 ms-lg-5 ms-md-5 col-12 col-lg-4 col-md-6" style="width:22rem;">
+            <img src="./assets/car6.jfif" class="card-img-top pt-4" alt="Car">
+            <div class="card-body ps-lg-1">
+              <h6 class="card-title fw-bold text-start pt-1">Ferrari Enzo</h6>
+              <div class="d-flex pt-1">
+                <div>
+                  <img src="./assets/gas-station.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">Electric</span>
+                </div>
+                <div class="ms-3">
+                  <img src="./assets/car.png" alt="Gasoline Picture">
+                  <span class="fw-bold text-black">Sedan</span>
+                </div>
               </div>
-              <div class="ms-3">
-                <img src="./assets/car.png" alt="Gasoline Picture">
-                <span class="fw-bold text-black">Sedan</span>
+              <p class="card-text text-start pt-3">Price</p>
+              <div class="d-flex justify-content-between pb-3">
+                <span class="fw-bold fs-5 pt-1">$5,040</span>
+                <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
               </div>
-            </div>
-            <p class="card-text pt-3">Price</p>
-            <div class="d-flex justify-content-between pb-3">
-              <span class="fw-bold fs-5 pt-1">$5,040</span>
-              <button class="btn btnGolden text-white shop fw-medium" type="submit">Buy Now</button>
             </div>
           </div>
         </div>
@@ -228,29 +238,45 @@
     <!-- Services -->
     <div class="services mt-5">
       <div class="title d-flex d-none d-md-block">
-          <h2 class="text-white fw-bold premium ps-lg-4 text-center pt-4">Our Premium Services</h2>
+          <h2 class="text-white fw-bold ps-lg-4 text-center pt-4">
+            <span class="border-bottom border-warning">Our Premium Services</span>
+          </h2>
       </div>
       <div class="title small d-flex d-md-none d-sm-block">
-        <h2 class="text-white ps-lg-4 ps-md-1 fw-bold premium mb-3 small3 text-center pt-4">Our Premium Services</h2>
+        <h3 class="text-white ps-lg-4 ps-md-1 fw-bold premium mb-3 small3 text-center pt-4">
+          <span class="border-bottom border-warning">Our Premium Services</span>
+        </h3>
     </div>
     <p class="text-white text-center">Wingo is a reputable company that offers a wide <br> range of useful services for every taste.</p>
 
     <div class="d-flex text-center ms-lg-5 ps-lg-5">
       <div class="ms-lg-5 ps-lg-4 mt-lg-5 d-flex">
-        <div class="d-flex text-center">
-          <div class="bg-white box1 pt-5 m-lg-5 m-md-5">
+
+        <div class="d-flex text-center ms-5 ms-md-0 ps-3 ps-md-0">
+          <div class="bg-white box1 pt-5 d-lg-none d-md-none d-sm-block">
             <img src="./assets/logo1.png" class="img-fluid text-center pt-2" alt="Logo Image">
             <h5 class="text-center pt-3">24 Hours Support</h5>
             <p class="text-center pt-3"> We support you <br>
               all hours of the day, </p>
           </div>
         </div>
+
+        <div class="d-flex text-center">
+          <div class="bg-white box1 pt-5 m-lg-5 m-md-5 d-none d-md-block">
+            <img src="./assets/logo1.png" class="img-fluid text-center pt-2" alt="Logo Image">
+            <h5 class="text-center pt-3">24 Hours Support</h5>
+            <p class="text-center pt-3"> We support you <br>
+              all hours of the day, </p>
+          </div>
+        </div>
+
         <div class="bg-white box1 pt-5 ms-lg-5 m-5 d-none d-md-block">
           <img src="./assets/logo2.png" class="img-fluid text-center pt-2" alt="Logo Image">
           <h5 class="text-center pt-3">Qualified Assurance</h5>
           <p class="text-center pt-3">All cars have a <br>
             valid insurance.  </p>
         </div>
+
         <div class="bg-white box1 pt-5 ms-lg-5 m-5 d-none d-md-block">
           <img src="./assets/logo3.png" class="img-fluid text-center pt-2" alt="Logo Image">
           <h5 class="text-center pt-3">Eco-Friendly</h5>
@@ -258,6 +284,7 @@
             vehicles for environmentally-
             conscious drivers.</p>
         </div>
+        
       </div>
     </div>
    </div>

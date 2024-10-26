@@ -50,7 +50,137 @@
         </div>
         </nav>
 
-         <!-- Bootstrap Script File -->
+
+<!-- Page Content -->
+<main class="w-100 px-3 pe-md-5 mx-auto" style="max-width: 1920px;">
+  <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+    
+    <!-- Cover Image (Visible on Large Screens) -->
+    <div class="d-none d-lg-block w-100">
+      <div class="d-flex justify-content-center h-50 overflow-hidden">
+        <img src="./assets/contactUs.png" class="mt-5 pt-4" style="max-width: 55%;" alt="Contact Us">
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="d-flex flex-column min-vh-75 w-100 w-lg-50 py-4 mx-auto me-lg-5" style="max-width: 550px;">
+      <!-- Logo and Header -->
+      <header class="navbar px-0 pb-4 mt-n2 mt-sm-0 mb-2 mb-md-5 mb-lg-4">
+        <a href="./index.html" class="navbar-brand pt-0">
+          <span class="d-flex flex-shrink-0 text-primary me-2"></span>
+        </a>
+      </header>
+
+      <h1 class="h2 ps-3 text-center border-bottom border-warning">Get In Touch</h1>
+      <p class="nav ps-3 fs-sm mb-4 text-center">24/7 we will answer your questions and problems.</p>
+
+      <!-- Form -->
+      <form class="needs-validation px-3" id="contactForm" novalidate>
+        <!-- First Name and Last Name in One Row on Larger Screens -->
+        <div class="row">
+          <div class="col-12 col-md-6 mb-3">
+            <input type="text" class="form-control form-control-lg" placeholder="First Name" required>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <input type="text" class="form-control form-control-lg" placeholder="Last Name" required>
+          </div>
+        </div>
+        
+        <!-- Email Field -->
+        <div class="mb-4">
+          <input type="email" id="userEmail" class="form-control form-control-lg" placeholder="Email" required>
+          <div class="invalid-feedback">Enter a valid email address!</div>
+        </div>
+        
+        <!-- Phone Number Field -->
+        <div class="mb-4">
+          <input type="tel" class="form-control form-control-lg" placeholder="Phone Number" required>
+        </div>
+
+        <!-- Message Field -->
+        <div class="mb-4">
+          <textarea class="form-control form-control-lg" placeholder="Message" rows="4" required></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-lg text-white fw-medium btnGolden w-100">Send Message</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+  <!--Footer -->
+  <footer class="footer mt-5">
+    <div class="container-fluid ps-md-5 ps-lg-5 pt-5 d-flex flex-column justify-content-between">
+      <div class="row text-white text-center text-md-start justify-content-around">
+        
+        <!-- Footer Logo and Description -->
+        <div class="col-12 col-md-3 ps-lg-5 col-lg-3 mb-4">
+          <img src="./assets/footer-logo.png" alt="Footer Logo" class="mb-3 ps-lg-5">
+          <p class="ps-lg-5">We offer a trusted platform to make car shopping secure, easy, and exciting.</p>
+        </div>
+  
+        <!-- Company Section -->
+        <div class="col-12 col-sm-3 col-lg-3 ps-lg-5 ps-md-5 mb-4">
+          <h4 class="ps-lg-5">Company</h4>
+          <ul class="list-unstyled ps-lg-5 mt-3">
+            <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Blog</a></li>
+            <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Careers</a></li>
+            <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Pricing</a></li>
+          </ul>
+        </div>
+  
+        <!-- Resources Section -->
+        <div class="col-12 col-sm-3 col-lg-3 mb-4">
+          <h4>Resources</h4>
+          <ul class="list-unstyled mt-3">
+            <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Documentation</a></li>
+            <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Papers</a></li>
+            <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Press Confidence</a></li>
+          </ul>
+        </div>
+  
+        <!-- Legal Section -->
+        <div class="col-12 col-sm-3 col-lg-3 ps-md-2 mb-4">
+          <h4>Legal</h4>
+          <ul class="list-unstyled mt-3">
+            <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Terms of Service</a></li>
+            <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Privacy Policy</a></li>
+            <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Cookies Policy</a></li>
+            <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Data Processing</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <hr class="text-white fw-bolder">
+  
+    <!-- Copyright Section -->
+    <div class="container">
+      <div class="row d-flex align-items-center justify-content-center text-center text-md-start">
+        <div class="col-12 col-md-6">
+          <p class="text-white">© 2024 Wingo. All rights reserved</p>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+          <img src="./assets/facebook.png" class="ms-3 cursor" width="30px" alt="Facebook">
+          <img src="./assets/instagram.png" class="ms-3 cursor" width="30px" alt="Instagram">
+          <img src="./assets/twitter.png" class="ms-3 cursor" width="30px" alt="Twitter">
+          <img src="./assets/telegram.png" class="ms-3 cursor" width="30px" alt="Telegram">
+          <img src="./assets/whatsapp.png" class="ms-3 cursor" width="30px" alt="WhatsApp">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+<!-- Bootstrap Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  
+
+    <!-- Bootstrap Script File -->
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -58,6 +188,6 @@
   ></script>
 
   <!-- JavaScript File -->
-   <script src="script.js"></script>
+   <script src="contact.js"></script>
 </body>
 </html>

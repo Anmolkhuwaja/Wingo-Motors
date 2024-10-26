@@ -35,6 +35,10 @@
     height: 95vh;
 }
 
+.out{
+    border: 1px solid #FE8400 !important;
+}
+
 /* Feature CSS*/
 .car{
     width: 5%;
@@ -51,8 +55,20 @@
     height: 60vh;
 }
 
+.footer{
+    background-color: #141414;
+    height: auto;
+      max-height: 100vh;
+      overflow-y: auto;
+}
+
 .title .premium{
     width:400px;
+}
+
+.link:hover{
+    background-color: #FE8400 !important;
+    color: #fff !important;
 }
 
 .small3{
@@ -68,10 +84,61 @@
 
 .change:hover{
     color: #FE8400 !important;
+    font-weight: 600;
 }
 
+.new:hover{
+    background-color: #FE8400 !important;
+}
 
-/* Responsive Code */
+.ancor{
+    color: #FE8400 !important;
+}
+
+.extra{
+    margin-top: 180px;
+}
+
+/* Cars Type */
+.custom-height {
+    height: 350px !important;
+    object-fit: cover;
+    width: 150px !important;
+    border-radius: 20px;
+}
+
+.review{
+        background-color: #141414;
+        height: 140vh;
+        width: 100%;
+        height: auto;
+}
+
+.news{
+    width: 100%;
+}
+.inner-shadow {
+    box-shadow: inset 0px -130px 10px rgba(0, 0, 0, 0.5); /* Bottom inner shadow */
+  }
+
+.font{
+    font-size: 12px;
+}
+
+.card1{
+    background-color: #efefef;
+    max-height: 15vh;
+}
+
+.man{
+    margin-left: -255px;
+    margin-top: 45px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+/* Responsive Code for mobile */
 @media (max-width: 767.98px) {
     .card {
       margin-left: auto;
@@ -81,12 +148,30 @@
         height: 500px;
         width: 100%;
     }
+    .extra{
+        margin-top: 20px;
+    }
   }
-  
+
+  /* Tablet and choti screen pay Responsive */
+  @media (max-width: 992px) {
+    .review {
+      height: auto;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+  }
+
+  /* Tables Responsive */
+  @media(max-width:884px){
+    .extra{
+        margin-top: 0px;
+    }
+  }
 
   /* animation */
   .underline1 {
-    display: inline-block;
+    /* display: inline-block; */
     position: relative;
     cursor: pointer;}
   .underline1::after {

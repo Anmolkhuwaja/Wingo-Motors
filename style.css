@@ -19,6 +19,15 @@
     height: 610px;
 }
 
+.yellow-overlay {
+    background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url(./assets/yellow-car1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 608px;
+}
+
 #header {
     position: fixed;
     width: 100%;
@@ -138,6 +147,36 @@
 .cursor{
     cursor: pointer;
 }
+
+.bmw{
+    background-color: #141414 !important;
+}
+
+/* Default font size */
+.card-title {
+    font-size: 1.5rem;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.3rem;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 1.1rem;
+    }
+    
+    .card {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
 /* Responsive Code for mobile */
 @media (max-width: 767.98px) {
     .card {
@@ -145,6 +184,10 @@
       margin-right: auto;
     }
     .bg-overlay {
+        height: 500px;
+        width: 100%;
+    }
+    .yellow-overlay{
         height: 500px;
         width: 100%;
     }

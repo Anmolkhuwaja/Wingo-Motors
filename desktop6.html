@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CDN File -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-expand-lg d-flex justify-content-around">
+        <div class="container-fluid px-lg-5">
+            <img class="navbar-brand img-fluid ms-lg-4" width="220px" href="#" src="./assets/logo.png"></img>
+            <button class="navbar-toggler text-black bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-black"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item underline1">
+                        <a class="nav-link text-white change active ms-lg-2" aria-current="page"
+                            href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item underline1">
+                        <a class="nav-link text-white ms-lg-2 change" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item underline1">
+                        <a class="nav-link text-white ms-lg-2 change" href="./booking.html">Booking</a>
+                    </li>
+                    <li class="nav-item underline1">
+                        <a class="nav-link text-white ms-lg-2 change" href="./cars.html">Cars</a>
+                    </li>
+                    <li class="nav-item underline1">
+                        <a class="nav-link text-white change ms-lg-2 me-lg- me-xl-0" href="./contact.html">Contacts</a>
+                    </li>
+                </ul>
+                <form class="flex-grow-1" role="search">
+                    <input class="form-control rounded-pill" type="search" placeholder="Search.." aria-label="Search">
+                </form>
+                <div class="mt-3 mt-lg-0 ms-lg-2">
+                    <button class="btn btn-outline-light fw-medium px-lg-4" type="button">
+                        <a href="./login.html" class="text-decoration-none text-white">Log in</a>
+                    </button>
+                    <button type="button" class="btnGolden btn ms-3 me-lg-3 px-lg-4 text-white fw-medium">
+                        <a href="./signup.html" class="text-decoration-none text-white">Sign Up</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="yellow-overlay container-fluid">
+        <div class="pt-md-5 text-center">
+            <div class="mt-md-5  pt-5">
+                <h1 class="mt-5 pt-5 fw-bold display-5">Imagine <br>
+                    the Possibilities</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Cars -->
+    <div class="bg-white feature mb-lg-5">
+        <div class="title d-flex d-none d-md-block">
+            <h2 class="text-black fw-medium ps-lg-4 text-center pt-4">
+                <span class="border-bottom border-warning">Shop your favourite brand</span>
+            </h2>
+        </div>
+        <div class="title small d-flex d-md-none d-sm-block">
+            <h3 class="text-black fw-medium ps-lg-4 small3 premium text-center pt-4">
+                <span class="border-bottom border-warning text-center">Shop your favourite brand</span>
+            </h3>
+        </div>
+
+        <div class="container ps-md-5 mt-5">
+            <div class="row">
+                <div class="col-lg-3 col-6 col-md-4">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-md-4 g-0">
+                            <div class="">
+                                <img src="./assets/BMW.png" width="30px" class=" mt-3" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h3 class="card-title text-white mt-1">BMW</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-md-4 g-0">
+                            <div class="">
+                                <img src="./assets/ford.png" width="70px" class=" mt-4" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h3 class="card-title text-white mt-1">Ford</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4 ">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-md-4 g-0">
+                            <div class="">
+                                <img src="./assets/toyota.png" width="50px" class=" mt-4" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h3 class="card-title text-white mt-1">Toyota</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4 ">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-4 g-0">
+                            <div class="mt-2 ps-md-2">
+                                <img src="./assets/KIA_logo3.png" width="60px" class=" mt-4" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h3 class="card-title text-white mt-1">KIA</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4 ">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-2 g-0">
+                            <div class="mt-2">
+                                <img src="./assets/Chevrolet 1.png" width="50px" class=" mt-3" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h4 class="card-title text-white mt-1">Chevrolet</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4 ">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-2 g-0">
+                            <div class="mt-2 ps-md-3">
+                                <img src="./assets/Volvo_logo1 1.png" width="50px" class=" mt-1" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h3 class="card-title text-white mt-1">Volvo</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4 ">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-2 g-0">
+                            <div class="mt-2 ps-md-1 ps-sm-0">
+                                <img src="./assets/g6.png" width="25px" class=" mt-1" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h6 class="card-title text-white mt-1">RollsRoyce</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4 ">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-2 g-0">
+                            <div class="mt-2 ps-md-3">
+                                <img src="./assets/layer1 (1).png" width="55px" class="mt-1" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h3 class="card-title text-white mt-1">Suzuki</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4 ">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-2 g-0">
+                            <div class="mt-2 ps-md-2">
+                                <img src="./assets/Group.png" width="55px" class="mt-2" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h3 class="card-title text-white mt-1">Honda</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4 ">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-0 g-0">
+                            <div class="mt-2 ps-md-1">
+                                <img src="./assets/lamborghini 1.png" width="28px" class="mt-2" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-white mt-1">Lamborghini</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4 ">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-2 g-0">
+                            <div class="mt-2 ps-md-2">
+                                <img src="./assets/dongo.png" width="90px" height="30px" class="mt-2" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-white mt-1">Dodge</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-6 col-md-4 ">
+                    <div class="card mb-3 bmw me-3" style="max-width: 210px;">
+                        <div class="d-flex ps-2 g-0">
+                            <div class="mt-2 ps-md-2">
+                                <img src="./assets/Mercedes.png" width="40px" class="mt-2" alt="image">
+                            </div>
+                            <div class="">
+                                <div class="card-body">
+                                    <h5 class="card-title text-white mt-1">Mercedes</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <button class="btn out fw-medium link px-lg-5 text-center fw-semibold" type="submit">
+                <a class="text-decoration-none ancor link" href="">See All</a></button>
+        </div>
+    </div>
+
+
+    <!-- Top Rated Cars -->
+    <div class="bg-white feature mb-lg-5 mt-3">
+        <div class="title d-flex d-none d-md-block">
+            <h2 class="text-black fw-medium ps-lg-4 text-center pt-4">
+                <span class="border-bottom border-warning">Top rated cars</span>
+            </h2>
+        </div>
+        <div class="title small d-flex d-md-none d-sm-block">
+            <h3 class="text-black fw-medium ps-lg-4 small3 premium text-center pt-4">
+                <span class="border-bottom border-warning text-center">Top rated cars</span>
+            </h3>
+        </div>
+
+        <div class="text-center p-3 ps-lg-0 ms-lg-4">
+            <div class="container-fluid d-flex mt-5 justify-content-center align-items-center">
+                <div class="row justify-content-center">
+
+                    <div class="mb-3 shadow me-lg-5 col-12 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/news3.jfif" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2025 </h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">BMW 8 Series</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$91,975</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow col-12 me-lg-5 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/rated22.jpg" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2024</h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Audi S7</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$86,395</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow col-12 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/rated33.jpg" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2024</h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Lexus Lc</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$91,975</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow me-lg-5 col-12 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/rated44.jpg" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2025 </h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Mazda3</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$23,950</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow col-12 me-lg-5 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/rated55.jpg" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2024</h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">GMC</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$36,300</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow col-12 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/rated66.jpg" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2024</h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Tesla Fall vehicle</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$21,000</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow me-lg-5 col-12 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/ratedrated7.png" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2025 </h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Dodge SRT Demon</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$76,590</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow col-12 me-lg-5 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/rated88.jpg" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2024</h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Nissan GTR</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$122,985</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow col-12 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/rated99.jpg" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2024</h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Hyundai Kona</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$25,745</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow me-lg-5 col-12 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/rated10.jfif" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2025 </h6>
+                                <h6 class="fw-medium mt-2 fw-medium fs-5 text-black">Mercedes-Benz AMG</h6>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$33,295</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow col-12 me-lg-5 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/rated111.jpg" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2024</h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Ferrari Enzo</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$2,640,000</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 shadow col-12 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+                        <img src="./assets/rated122.jpg" class="card-img-top" alt="Car">
+                        <div class="card-body px-2 pb-3 bg-white">
+                            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+                                <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2024</h6>
+                                <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Hyundai</h5>
+                            </div>
+                            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+                            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$27,800</p>
+                        </div>
+                    </div>  
+
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-2 mb-5">
+            <button class="btn out fw-medium link px-lg-5 text-center fw-semibold" type="submit">
+                <a class="text-decoration-none yellow link" href="">See more</a></button>
+        </div>
+    </div>
+
+      <!-- News -->
+      <div class="review bg-white mt-3">
+        <div class="title d-flex d-none d-md-block mt-5">
+            <h2 class="fw-medium ps-lg-4 text-center pt-3">
+              <span class="border-bottom border-warning">News & Reviews</span>
+            </h2>
+        </div>
+        <div class="title small d-flex d-md-none d-sm-block">
+          <h3 class="ps-lg-4 ps-md-1 premium mb-3 small3 text-center pt-4">
+            <span class="border-bottom border-warning">News & Reviews</span>
+          </h3>
+      </div>
+  
+      <div class="d-flex container p-lg-5 text-center">
+        <div class="d-flex align-items-center align-items-center">
+          <div class="news">
+            <div class="row">
+              <div class="position-relative col-12 col-md-6 col-lg-6 mt-3">
+                <img src="./assets/news1.jfif" alt="Image" class="img-fluid">
+                <p class="position-absolute ms-3 inner-shadow bottom-0 start-0 p-2 rounded-5 text-white">
+                  <strong>2024</strong> Model Audi E-Tron, starting at <strong>$6094</strong>
+                </p>
+              </div>
+
+              <div class="position-relative col-12 col-md-6 col-lg-6 mt-3">
+                <img src="./assets/news22.jpg" alt="Image" class="img-fluid">
+                <p class="position-absolute ms-3 inner-shadow bottom-0 start-0 p-2 rounded-5 text-white">
+                  <strong>2024</strong> Model MG HS, starting at <strong>$7260</strong>
+                </p>
+              </div>
+
+              <div class="position-relative col-12 col-md-6 col-lg-6 mt-3">
+                <img src="./assets/news3.jfif" alt="Image" class="img-fluid">
+                <p class="position-absolute ms-3 inner-shadow bottom-0 start-0 p-2 rounded-5 text-white">
+                  <strong>2024</strong> Model BMW M4, starting at <strong>$8094</strong>
+                </p>
+              </div>
+
+              <div class="position-relative col-12 col-md-6 col-lg-6 mt-3">
+                <img src="./assets/news44.jpg" alt="Image" class="img-fluid">
+                <p class="position-absolute ms-3 inner-shadow bottom-0 start-0 p-2 rounded-5 text-white">
+                  <strong>2024</strong> Model Ford truck, starting at <strong>$8260</strong>
+                </p>
+              </div>
+              <div class="text-center mt-5 mb-5">
+                <button class="btn out fw-medium link px-lg-5 text-center fw-semibold" type="submit">
+                    <a class="text-decoration-none yellow link" href="">See All</a></button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!--Footer -->
+        <div class="footer">
+            <div class="container-fluid ps-md-5 ps-lg-5 pt-5 d-flex flex-column justify-content-between">
+              <div class="row text-white text-center text-md-start justify-content-around">
+                
+                <!-- Footer Logo and Description -->
+                <div class="col-12 col-md-3 ps-lg-5 col-lg-3 mb-4">
+                  <img src="./assets/footer-logo.png" alt="Footer Logo" class="mb-3 ps-lg-5">
+                  <p class="ps-lg-5">We offer a trusted platform to make car shopping secure, easy, and exciting.</p>
+                </div>
+          
+                <!-- Company Section -->
+                <div class="col-12 col-sm-3 col-lg-3 ps-lg-5 ps-md-5 mb-4">
+                  <h4 class="ps-lg-5">Company</h4>
+                  <ul class="list-unstyled ps-lg-5 mt-3">
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Blog</a></li>
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Careers</a></li>
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Pricing</a></li>
+                  </ul>
+                </div>
+          
+                <!-- Resources Section -->
+                <div class="col-12 col-sm-3 col-lg-3 mb-4">
+                  <h4>Resources</h4>
+                  <ul class="list-unstyled mt-3">
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Documentation</a></li>
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Papers</a></li>
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Press Confidence</a></li>
+                  </ul>
+                </div>
+          
+                <!-- Legal Section -->
+                <div class="col-12 col-sm-3 col-lg-3 ps-md-2 mb-4">
+                  <h4>Legal</h4>
+                  <ul class="list-unstyled mt-3">
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Terms of Service</a></li>
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Privacy Policy</a></li>
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Cookies Policy</a></li>
+                    <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Data Processing</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+            <hr class="text-white fw-bolder">
+          
+            <!-- Copyright Section -->
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center text-center text-md-start">
+                <div class="col-12 col-md-6">
+                  <p class="text-white">© 2024 Wingo. All rights reserved</p>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+                  <img src="./assets/facebook.png" class="ms-3 cursor" width="30px" alt="Facebook">
+                  <img src="./assets/instagram.png" class="ms-3 cursor" width="30px" alt="Instagram">
+                  <img src="./assets/twitter.png" class="ms-3 cursor" width="30px" alt="Twitter">
+                  <img src="./assets/telegram.png" class="ms-3 cursor" width="30px" alt="Telegram">
+                  <img src="./assets/whatsapp.png" class="ms-3 cursor" width="30px" alt="WhatsApp">
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <!-- Bootstrap Script File -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

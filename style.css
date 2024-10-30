@@ -10,6 +10,10 @@
 .btnGolden{
     background: #FE8400 !important;
 }
+
+.yellow{
+    color: #FE8400 !important;
+}
 .bg-overlay {
     background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url(./assets/hero-img.jfif);
     background-repeat: no-repeat;
@@ -17,6 +21,24 @@
     background-position: center center;
     color: #fff;
     height: 610px;
+}
+
+.bg-overlay2 {
+    background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url(./assets/aboutus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 610px;
+}
+
+.yellow-overlay {
+    background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url(./assets/yellow-car1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 608px;
 }
 
 #header {
@@ -34,6 +56,7 @@
     background-color: #141414;
     height: 95vh;
 }
+
 
 .out{
     border: 1px solid #FE8400 !important;
@@ -138,6 +161,73 @@
 .cursor{
     cursor: pointer;
 }
+
+.bmw{
+    background-color: #141414 !important;
+}
+
+/* Default font size */
+.card-title {
+    font-size: 1.5rem;
+}
+
+.d-flex {
+    position: relative; /* To enable absolute positioning for .shape */
+    display: flex;
+    align-items: stretch; /* Makes both containers (image and shape) equal in height */
+}
+
+.img-container {
+    width: 50%; /* Adjust width of the image container */
+    overflow: hidden; /* Ensures image fits within container */
+    position: relative;
+}
+
+.shape {
+    background: #141414;
+    color: #fff;
+    padding: 20px 36px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 45%;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.shape:after {
+    background: #141414;
+    content: "";
+    position: absolute;
+    left: -95px;
+    top: 0;
+    bottom: 0;
+    width: 193px;
+    transform: skew(20deg);
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.3rem;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 1.1rem;
+    }
+    
+    .card {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
 /* Responsive Code for mobile */
 @media (max-width: 767.98px) {
     .card {
@@ -146,6 +236,14 @@
     }
     .bg-overlay {
         height: 500px;
+        width: 100%;
+    }
+    .bg-overlay2{
+        height: 400px;
+        width: 100%;
+    }
+    .yellow-overlay{
+        height: 400px;
         width: 100%;
     }
     .extra{
@@ -185,3 +283,57 @@
     transition: width 0.3s ease;}
     .underline1:hover::after {
     width: 100%;}
+
+/* SignUp Login & Contact Us CSS */
+    .create{
+        color: #333d4c;
+    }
+    
+    .create:hover{
+        text-decoration: none;
+    }
+    
+    .fbBtn{
+        background: none;
+        font-size: 18px;
+        padding: 8px 0px;
+        font-weight: 500;
+        border-radius: 5px;
+        border: 0.5px solid #d9dde0;
+    }
+    
+    .fbBtn:hover{
+        border: 0.5px solid #616263;
+    }
+    /* Underline Animation */
+    .ancor {
+        position: relative;
+        text-decoration: none;
+        color: #181d25;
+        transition: color 0.3s ease;
+    }
+    .ancor::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 1.5px; 
+        background-color: #000;
+        bottom: -4px;
+        transition: width 0.3s ease;
+    }
+    .ancor:hover::after {
+        width: 100%;
+    }
+    .is-invalid {
+        border-color: red;
+      }
+      
+      .invalid-tooltip {
+        display: none;
+        color: red;
+      }
+    
+    /* Sign Up CSS */
+    

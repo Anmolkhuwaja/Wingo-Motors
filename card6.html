@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyundai Kona</title>
+    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./AboutPage.css">
+  <!-- Bootstrap CDN File -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CDN File -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+<body>
+    <!-- Header -->
+  <nav id="header" class="navbar navbar-expand-lg d-flex justify-content-around">
+    <div class="container-fluid px-lg-5">
+      <img class="navbar-brand img-fluid ms-lg-4" width="220px" href="#" src="./assets/logo.png"></img>
+      <button class="navbar-toggler text-black bg-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-black"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item underline1">
+            <a class="nav-link text-white change active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item underline1">
+            <a class="nav-link text-white ms-lg-2 change" href="./about2.html">About</a>
+          </li>
+          <li class="nav-item underline1">
+            <a class="nav-link text-white ms-lg-2 change" href="./desktop6.html">Booking</a>
+          </li>
+          <li class="nav-item underline1">
+            <a class="nav-link text-white ms-lg-2 change" href="./desktop6.html">Cars</a>
+          </li>
+          <li class="nav-item underline1">
+            <a class="nav-link text-white change me-lg-3 me-xl-0" href="./contact.html">Contacts</a>
+          </li>
+        </ul>
+        <form class="flex-grow-1 ms-lg-5 pe-lg-5" role="search">
+          <input class="form-control rounded-pill" type="search" placeholder="Search.." aria-label="Search">
+        </form>
+        <div class="mt-3 mt-lg-0 ms-md-2">
+          <button class="btn btn-outline-light fw-medium px-lg-2" type="button">
+            <a href="./login.html" class="text-decoration-none px-3 text-white text">Log in</a>
+          </button>
+          <button type="button" class="btnGolden btn ms-2 px-3 text-white fw-medium">
+            <a href="./signup.html" class="text-decoration-none text-white">Sign Up</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <section class="container-fluid px-lg-5 mt-5 pt-5">
+    <div class="Heading d-flex align-items-center gap-2">
+      <h3 class="text-intern ms-3">2024 Hyundai Konaㅤ♡ </h3>
+      <i class="bi pb-1 text-light-emphasis fs-4 bi-heart"></i>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12 mb-2">
+        <img class="img-fluid w-100" src="./assets/card6-11.jpg" alt="">
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6 pb-4">
+            <img class="img-fluid w-100" src="./assets/card6-2.jfif" alt="">
+          </div>
+          <div class="col-md-6 pb-4">
+            <img class="img-fluid w-100" src="./assets/card6-3.jfif" alt="">
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-md-6 pb-2">
+            <img class="img-fluid w-100" src="./assets/card6-44.jpg" alt="">
+          </div>
+          <div class="col-md-6 pb-2">
+            <img class="img-fluid w-100" src="./assets/card6-5.jfif" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- Tablet & Laptop -->
+      <div class="text-intern d-flex align-items-center justify-content-end gap-3 mt-2"> 
+        <button type="button" class="btn px-4 buttons fw-medium d-none d-md-block">2020</button>
+        <button type="button" class="btn px-4 buttons fw-medium d-none d-md-block">2021</button>
+        <button type="button" class="btn px-4 buttons fw-medium d-none d-md-block">2022</button>
+        <button type="button" class="btn px-4 buttons fw-medium d-none d-md-block">2023</button>
+        <button type="button" class="btn px-4 buttons fw-medium d-none d-md-block">2024</button>
+    </div>
+    <!-- Mobile Slider on buttons -->
+    <div class="slider-wrapper position-relative d-flex mobileslider d-md-none">
+        <button class="slider-arrow left-arrow position-absolute start-0 top-50 translate-middle-y d-md-none">‹</button>
+        <div class="text-intern scroll-buttons d-flex align-items-center justify-content-start gap-3 mt-2 overflow-hidden">
+            <button type="button" class="btn px-4 buttons fw-medium">2020</button>
+            <button type="button" class="btn px-4 buttons fw-medium">2021</button>
+            <button type="button" class="btn px-4 buttons fw-medium">2022</button>
+            <button type="button" class="btn px-4 buttons fw-medium">2023</button>
+            <button type="button" class="btn px-4 buttons fw-medium">2024</button>
+        </div>
+        <button class="slider-arrow right-arrow position-absolute end-0 top-50 translate-middle-y d-md-none">›</button>
+    </div>
+    </div>
+  </section>
+
+ <!-- Hero Section Part 2 -->
+<section class="container-fluid">
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <!-- Part1 -->
+            <div class="col-sm-12 col-lg-4 col-md-12 mb-md-4 d-flex flex-column justify-content-between">
+               <div class="row d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex justify-content-center col-md-5">
+                    <div class="text-intern border-secondary-subtle ms-lg-5 ms-sx-0 ">
+                        <h3>$7,067</h3>
+                        <p class="lightblack fw-medium font text-center">Starting MSRP</p>
+                    </div>
+                    <div class="ms-5 text-bg-secondary border-end border-secondary border-1"></div>
+                    <div class="ps-5 text-intern">
+                        <h3>$8,349</h3>
+                        <p class="lightblack fw-medium font text-center">Starting Mkt Avg</p>
+                    </div>
+                </div>
+                <div class="stars text-intern text-center col-md-5 col-lg-10 py-1 motors ms-lg-5 ms-sm-0 mt-3 px-4">
+                    <h6 class="fw-medium">Wingo Motors Rating</h6>
+                    <div class="img">
+                        <img src="./K-images/star-point_icon-icons.com_68483 5.png" alt="df">
+                        <img src="./K-images/star-point_icon-icons.com_68483 5.png" alt="df">
+                        <img src="./K-images/star-point_icon-icons.com_68483 5.png" alt="df">
+                        <img src="./K-images/star-point_icon-icons.com_68483 5.png" alt="df">
+                        <img src="./K-images/star-point_icon-icons.com_68483 5.png" alt="df">
+                    </div>
+                </div>
+                <div class="text-center">
+                <button type="button" class="btn bttn mt-2 col-md-5 fw-medium btnGolden ms-0 ps-0 text-white ms-lg-5" onclick="build()">Build & Price</button>
+
+                </div>
+               </div>
+            </div>
+
+            <!-- Part2 -->
+            <div class="col-md-12 col-lg-8 col-lg-6 d-flex flex-column">
+                <div class="row">
+                        <div class="col-md-4 col-12 pb-4 mt-4 mt-lg-0 mt-md-0">
+                            <div class="card py-0 px-5 ms-3 d-flex flex-column engine align-items-center text-center">
+                                <img class="img-fluid mt-3" src="./K-images/Vector.png" width="30px" alt="">
+                                <h6 class="mt-2 text-center">Engine</h6>
+                                <p class="text-center little">Gas Plug-in Hybrid</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 pb-4">
+                            <div class="card py-0 ms-3 px-5 d-flex flex-column engine align-items-center text-center">
+                                <img class="img-fluid mt-3" src="./K-images/Vector (1).png" width="30px" alt="">
+                                <h6 class="mt-2 text-center">Horsepower</h6>
+                                <p class="text-center little">118-120 hp</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 pb-4">
+                            <div class="card py-0 px-5 ms-3 d-flex flex-column engine align-items-center text-center">
+                                <img class="img-fluid mt-3" src="./K-images/map_car_fuel_icon_158322 1.png" width="30px" alt="">
+                                <h6 class="mt-2 text-center">MPG</h6>
+                                <p class="text-center little">25-27 Combined</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-12 pb-4">
+                        <div class="card py-0 px-5 ms-3 d-flex flex-column engine align-items-center text-center">
+                            <img class="img-fluid mt-3" src="./K-images/seatbelt_icon_138214 1.png" width="30px" alt="">
+                            <h6 class="mt-2 text-center">Seating</h6>
+                            <p class="text-center little">4-5</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 pb-4">
+                        <div class="card py-0 ms-3 px-5 d-flex flex-column engine align-items-center text-center">
+                            <img class="img-fluid mt-3" src="./K-images/car_icon_188077 1.png" width="30px" alt="">
+                            <h6 class="mt-2 text-center">Cargo Capacity</h6>
+                            <p class="text-center little">80-100 ft’</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 pb-4">
+                        <div class="card py-0 px-5 ms-3 d-flex flex-column engine align-items-center text-center">
+                            <img class="img-fluid mt-3" src="./K-images/verified_shield_protected_secure_security_icon_177173 1.png" width="30px" alt="">
+                            <h6 class="mt-2 text-center">Basic Waronty</h6>
+                            <p class="text-center little">4 year/ 50k miles</p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Overview -->
+<div class="">
+  <div class="text-center p-2 Enzo-bg text-intern">
+    <span class="fs-4 text-white">2024  Hyundai Kona</span>
+  </div>
+  <div class="bg-img-6 container-fluid">
+    <div class="px-md-5 img-fluid">
+      <div class="text-center pt-4">
+        <span class="mt-md-5 fs-3 fw-medium pb-2 underline1">Overview</span>
+      </div>
+
+      <div class="overflow-hidden container">
+        <p class="text-justify container mt-lg-2 pt-lg-5 pt-md-3 text-intern px-md-5 fs-xs-0 overflow-text">The
+          The Hyundai Kona is a compact crossover SUV that packs a big punch in a small package. Introduced in 2017, the Kona has quickly become a popular choice for those seeking a versatile and feature-rich vehicle. Its sleek and modern design turns heads on the road, while its spacious interior and comfortable ride make it perfect for daily commutes and adventures alike.Overall, the Hyundai Kona is a stylish, feature-packed, and practical crossover that's perfect for those seeking a reliable and fun driving experience.</span> </p>
+
+      </div>
+    </div>
+  </div>
+  <div class="text-center Enzo-bg text-intern">
+    <span class="fs-3 bold text-white">PHOTOS</span>
+  </div>
+
+</div>
+
+ <!-- 8 Cards Row 1 Photos -->
+ <div class="bg-white mt-5 feature mb-lg-5">
+  <div class="title d-flex d-none d-md-block">
+    <h2 class="text-black fw-medium ps-lg-4 text-center">
+      <span class="border-bottom border-warning">Hyundai Kona Exterior Photos</span>
+    </h2>
+  </div>
+  <div class="title small d-flex d-md-none d-sm-block">
+    <h3 class="text-black fw-medium ps-lg-4 small3 premium text-center pt-4">
+      <span class="border-bottom border-warning text-center">Hyundai Kona Exterior Photos</span>
+    </h3>
+  </div>
+
+  <div class="text-center container-fluid mt-5">
+    <div class="container-fluid">
+      <div class="ro d-flex flex-wrap container-fluid align-items-center justify-content-center gap-3">
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo1.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo2.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo3.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo4.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo5.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo6.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo7.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo8.jpg" alt="Card image">
+          </div>
+        </div>
+
+        
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo9.jpg" alt="Card image">
+          </div>
+        </div>
+
+        
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo10.jpg" alt="Card image">
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- 8 Cards Row 1 Photos -->
+ <div class="bg-white mt-5 feature mb-lg-5">
+  <div class="title d-flex d-none d-md-block">
+    <h2 class="text-black fw-medium ps-lg-4 text-center">
+      <span class="border-bottom border-warning">Hyundai Kona Interior Photos</span>
+    </h2>
+  </div>
+  <div class="title small d-flex d-md-none d-sm-block">
+    <h3 class="text-black fw-medium ps-lg-4 small3 premium text-center pt-4">
+      <span class="border-bottom border-warning text-center">Hyundai Kona Interior Photos</span>
+    </h3>
+  </div>
+
+  <div class="text-center container-fluid mt-5">
+    <div class="container-fluid">
+      <div class="ro d-flex flex-wrap container-fluid align-items-center justify-content-center gap-3">
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo11.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo12.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo13.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo14.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo15.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo16.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo17.jpg" alt="Card image">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo18.jpg" alt="Card image">
+          </div>
+        </div>
+
+        
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo19.jpg" alt="Card image">
+          </div>
+        </div>
+
+        
+        <div class="">
+          <div class="mb-2">
+            <img class="img-fluid photo-card" src="./assets/photoo20.jpg" alt="Card image">
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Top Rated Cars -->
+ <div class="bg-white feature mb-lg-5 mt-3">
+  <div class="title d-flex d-none d-md-block">
+    <h2 class="text-black fw-medium ps-lg-4 text-center pt-4">
+      <span class="border-bottom border-warning">People Also Like</span>
+    </h2>
+  </div>
+  <div class="title small d-flex d-md-none d-sm-block">
+    <h3 class="text-black fw-medium ps-lg-4 small3 premium text-center pt-4">
+      <span class="border-bottom border-warning text-center">People Also Like</span>
+    </h3>
+  </div>
+
+  <div class="text-center p-3 ps-lg-0 ms-lg-4">
+    <div class="container-fluid d-flex mt-5 justify-content-center align-items-center">
+      <div class="row justify-content-center">
+
+
+        <div class="mb-3 shadow me-lg-5 animated-card cursor col-12 col-sm-8 col-md-4 col-lg-4"
+          style="max-width:20rem;">
+          <img src="./assets/news3.jfif" class="card-img-top" alt="Car">
+          <div class="card-body px-2 pb-3 bg-white">
+            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+              <h6 class="p-1 font mt-2 text-secondary bg-body-secondary">2025 </h6>
+              <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">BMW 8 Series</h5>
+            </div>
+            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$91,975</p>
+          </div>
+        </div>
+
+        <div class="mb-3 shadow cursor animated-card col-12 me-lg-5 col-sm-8 col-md-4 col-lg-4"
+          style="max-width:20rem;">
+          <img src="./assets/rated22.jpg" class="card-img-top" alt="Car">
+          <div class="card-body px-2 pb-3 bg-white">
+            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+              <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2024</h6>
+              <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Audi S7</h5>
+            </div>
+            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$86,395</p>
+          </div>
+        </div>
+
+        <div class="mb-3 shadow cursor animated-card col-12 col-sm-8 col-md-4 col-lg-4" style="max-width:20rem;">
+          <img src="./assets/rated33.jpg" class="card-img-top" alt="Car">
+          <div class="card-body px-2 pb-3 bg-white">
+            <div class="d-flex border-bottom mt-3 align-items-center mb-4 gap-2">
+              <h6 class=" p-1 font mt-2 text-secondary bg-body-secondary">2024</h6>
+              <h5 class="fw-medium mt-2 fw-medium fs-5 text-black">Lexus Lc</h5>
+            </div>
+            <p class="text-start font mb-0 mt-4 text-intern fw-medium">Starting MSRP</p>
+            <p class="text-start text-black mt-2 fs-4 text-black fw-medium">$91,975</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-4">
+    <button class="btn buton fw-medium link text-decoration-none px-lg-5 text-center fw-semibold" type="submit">
+      <a class="text-decoration-none link" href="">See more</a></button>
+  </div>
+</div>
+
+ <!--Footer -->
+ <div class="footer mt-5">
+  <div class="container-fluid ps-md-5 ps-lg-5 pt-5 d-flex flex-column justify-content-between">
+    <div class="row text-white text-center text-md-start justify-content-around">
+
+      <!-- Footer Logo and Description -->
+      <div class="col-12 col-md-3 ps-lg-5 col-lg-3 mb-4">
+        <img src="./assets/footer-logo.png" alt="Footer Logo" class="mb-3 ps-lg-5">
+        <p class="ps-lg-5">We offer a trusted platform to make car shopping secure, easy, and exciting.</p>
+      </div>
+
+      <!-- Company Section -->
+      <div class="col-12 col-sm-3 col-lg-3 ps-lg-5 ps-md-5 mb-4">
+        <h4 class="ps-lg-5">Company</h4>
+        <ul class="list-unstyled ps-lg-5 mt-3">
+          <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Blog</a></li>
+          <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Careers</a></li>
+          <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Pricing</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources Section -->
+      <div class="col-12 col-sm-3 col-lg-3 mb-4">
+        <h4>Resources</h4>
+        <ul class="list-unstyled mt-3">
+          <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Documentation</a></li>
+          <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Papers</a></li>
+          <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Press Confidence</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal Section -->
+      <div class="col-12 col-sm-3 col-lg-3 ps-md-2 mb-4">
+        <h4>Legal</h4>
+        <ul class="list-unstyled mt-3">
+          <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Terms of Service</a></li>
+          <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Privacy Policy</a></li>
+          <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Cookies Policy</a></li>
+          <li class="mt-2"><a href="#" class="text-white text-decoration-none underline1">Data Processing</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <hr class="text-white fw-bolder">
+
+  <!-- Copyright Section -->
+  <div class="container">
+    <div class="row d-flex align-items-center justify-content-center text-center text-md-start">
+      <div class="col-12 col-md-6">
+        <p class="text-white">© 2024 Wingo. All rights reserved</p>
+      </div>
+      <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+        <img src="./assets/facebook.png" class="ms-3 cursor" width="30px" alt="Facebook">
+        <img src="./assets/instagram.png" class="ms-3 cursor" width="30px" alt="Instagram">
+        <img src="./assets/twitter.png" class="ms-3 cursor" width="30px" alt="Twitter">
+        <img src="./assets/telegram.png" class="ms-3 cursor" width="30px" alt="Telegram">
+        <img src="./assets/whatsapp.png" class="ms-3 cursor" width="30px" alt="WhatsApp">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+     <!-- Bootstrap Script File -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+
+<!-- JavaScript File -->
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,70 +1,142 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaisei+Tokumin:wght@400;500;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.text-intern {
+* {
   font-family: "Montserrat", sans-serif;
 }
 
-.border-hr {
-  width: 2px;
-  height: 80px;
+.motors {
+  width: 350px;
+  height: 60px;
+  border-radius: 4px;
+}
+
+.engine {
+  background-color: #f7f7f7 !important;
+  border: none !important;
+  height: 100px !important;
+}
+
+.little {
+  font-size: 10px !important;
+}
+
+.bttn {
+  width: 370px !important;
+}
+
+.photo-card {
+  height: 230px !important;
+  border-radius: 8px !important;
+}
+
+.lightblack {
+  color: #2a2a2a;
 }
 
 .Enzo-bg {
   background-color: #fe8400;
 }
 
+.overflow-text {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+}
+
 /* Mercedes-Benz section */
 
-.bg-img-1 {
+.bg-img-6 {
   background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)),
-    url(./K-images/bg-1-D.png);
+    url(./assets/card6-overview.jfif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   color: #fff;
-  height: 710px;
+  height: 480px;
+}
+
+.bg-img-1 {
+  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)),
+    url(./assets/overview3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 550px;
 }
 
 .bg-img-2 {
   background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)),
-    url(./K-images/PMG\ background.png);
+    url(./assets/overview4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   color: #fff;
-  height: 710px;
+  height: 550px;
 }
 
 .bg-img-3 {
   background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)),
-    url(./K-images/bg-img-3.png);
+    url(./assets/mini-overview.jfif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   color: #fff;
-  height: 710px;
+  height: 550px;
 }
 
 .bg-img-4 {
   background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)),
-    url(./K-images/bg-img-4.png);
+    url(./assets/ram-overview.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   color: #fff;
-  height: 710px;
+  height: 550px;
 }
 
 .bg-img-5 {
   background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)),
-    url(./K-images/bg-img-5.png);
+    url(./assets/cayena-overvoew.jfif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   color: #fff;
-  height: 710px;
+  height: 550px;
 }
 
 .btn-color {
   color: #fe8400;
+}
+
+.buttons {
+  color: #141414 !important;
+  border: 3px solid #F3F3F3 !important;
+  background-color: #f7f7f7 !important;
+}
+
+.buttons:hover {
+  color: #fff !important;
+  background-color: #FE8400 !important;
+}
+
+.stars {
+  background-color: #cecece;
+}
+
+/* Mobile slider */
+@media (max-width: 768px) {
+  .scroll-buttons {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+  }
+  
+  .slider-arrow {
+    background: none;
+    border: none;
+    font-size: 3.5rem;
+    color: #141414;
+    cursor: pointer;
+  }
 }
